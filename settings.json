@@ -1,0 +1,131 @@
+{
+  "editor.occurrencesHighlight": false,
+  "editor.selectionHighlight": false,
+  "workbench.colorTheme": "Bearded Theme Arc EolStorm",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.tokenColorCustomizations": {
+    "[Bearded Theme Arc EolStorm]": {
+      "textMateRules": [
+        {
+          "scope": "meta.function",
+          "settings": {
+            "foreground": "#dee2e6"
+          }
+        },
+        {
+          "scope": "entity.name.tag support.class.component",
+          "settings": {
+            "foreground": "#bbdefb"
+          }
+        },
+        {
+          "scope": "punctuation",
+          "settings": {
+            "foreground": "#bbdefb"
+          }
+        },
+        {
+          "scope": "meta.brace",
+          "settings": {
+            "foreground": "#ffe600"
+          }
+        },
+        {
+          "scope": "punctuation.terminator",
+          "settings": {
+            "foreground": "#ffe600"
+          }
+        },
+        {
+          "scope": "punctuation.definition.parameters",
+          "settings": {
+            "foreground": "#e141fd"
+          }
+        },
+        {
+          "scope": "string",
+          "settings": {
+            "foreground": "#00b270"
+          }
+        }
+      ]
+    }
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "git.confirmSync": false,
+  "gitlens.advanced.messages": {
+    "suppressImproperWorkspaceCasingWarning": true
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnSave": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "bracketPairColorizer.depreciation-notice": false,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "gitlens.gitCommands.skipConfirmations": ["fetch:command", "switch:command"],
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "git.autofetch": true,
+
+  "workbench.colorCustomizations": {
+    "[Bearded Theme Arc EolStorm]": {
+      "editor.background": "#251b1b",
+      "sideBar.foreground": "#dee2e6",
+      "sideBar.background": "#0b1014",
+      "statusBar.foreground": "#dee2e6",
+      "statusBar.background": "#0b1014",
+      "titleBar.activeBackground": "#0b1014",
+      "editorGroupHeader.tabsBackground": "#0b1014",
+      "activityBar.background": "#0b1014",
+      "activityBar.foreground": "#ffd866",
+      "activityBarBadge.foreground": "#0b1014",
+      "activityBarBadge.background": "#ffd866",
+      "tab.inactiveBackground": "#0b1014",
+      "tab.activeForeground": "#ffd866",
+      "tab.activeBackground": "#252525",
+      "tab.inactiveForeground": "#dee2e6",
+      "tab.activeBorder": "#ffd866",
+      "panelTitle.activeForeground": "#ffd866",
+      "sideBarSectionHeader.background": "#0b1014",
+      "sideBarSectionHeader.foreground": "#ffd866",
+      "panel.background": "#0b1014",
+      "panelSectionHeader.background": "#0b1014",
+      "terminal.background": "#0b1014",
+      "problemsErrorIcon.foreground": "#ffd866",
+      "problemsWarningIcon.foreground": "#ffd866",
+      "problemsInfoIcon.foreground": "#ffd866",
+      "breadcrumb.background": "#0b1014",
+      "minimap.background": "#0b1014",
+      "editorLineNumber.foreground": "#dee2e6",
+      "window.inactiveBorder": "#0b1014",
+      "window.activeBorder": "#0b1014",
+      // "contrastBorder": "#ffd866",
+      "icon.foreground": "#ffd866",
+      "editorGutter.background": "#0b1014",
+      "menu.background": "#0b1014",
+      "menu.foreground": "#dee2e6",
+      "menubar.selectionForeground": "#ffd866",
+      "menubar.selectionBackground": "#0b1014",
+      "editorOverviewRuler.background": "#0b1014"
+      // "toolbar.hoverForeground": "#ffd866"
+
+      // "progressBar.background": "#ffd866"
+      // "focusBorder": "#21FA90"
+      // "selection.background": "#21FA90"
+      // "foreground": "#ffd866"
+      // "contrastActiveBorder": "#ffd866"
+    }
+  },
+  "workbench.tree.indent": 20,
+  "explorer.compactFolders": false
+}
