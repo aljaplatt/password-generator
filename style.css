@@ -9,7 +9,7 @@ html {
 }
 .container {
   width: 600px;
-  border: 3px solid red;
+  /* border: 3px solid red; */
   margin: 0 auto;
   background: #1f2937;
 }
@@ -63,9 +63,9 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid black;
-  font-size: 2em;
-
+  border: 1px solid black;
+  font-size: 1.5em;
+  min-height: 1.8rem;
   border-radius: 8px;
   background: #273549;
   color: #34d399;
