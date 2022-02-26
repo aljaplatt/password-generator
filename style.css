@@ -4,7 +4,6 @@
 }
 
 html {
-  /* background: #1f2937; */
   font-family: "Inter", sans-serif;
 }
 .container {
@@ -12,12 +11,11 @@ html {
   /* border: 3px solid red; */
   margin: 0 auto;
   background: #1f2937;
+  border-radius: 8px;
 }
 
 .title-container {
-  /* text-align: center; */
   margin: 4rem 3rem 3rem 3rem;
-
   padding: 3rem 0;
   border-bottom: 2px solid #888888;
 }
@@ -33,23 +31,33 @@ h1 {
 .bottom-h1 {
   color: #10b981;
 }
-h3 {
+h3,
+.label {
   font-weight: 400;
   color: #fff;
   font-size: 20px;
+  margin-bottom: 2rem;
 }
 
-.btn {
+.btn,
+.input {
   padding: 0.8em 1.5em;
   background: #10b981;
   color: #fff;
   font-family: "Inter", sans-serif;
-  margin-top: 3rem;
   border-radius: 8px;
+  margin-top: 1rem;
 }
 
 .fa-bolt {
   margin-right: 0.5em;
+}
+
+.input {
+  padding: 0.8em 1.5em;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  margin-right: 1rem;
 }
 
 .grid {

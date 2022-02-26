@@ -3,6 +3,7 @@ const squareOne = document.querySelector(".password-one");
 const squareTwo = document.querySelector(".password-two");
 const squareThree = document.querySelector(".password-three");
 const squareFour = document.querySelector(".password-four");
+const input = document.querySelector(".input");
 const possibleChars = [
   1,
   2,
@@ -45,19 +46,42 @@ const possibleChars = [
   "Z",
   "A",
   "H",
+  "T",
+  "I",
+  "J",
+  "K",
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  0,
 ];
 
-btn.addEventListener("click", () => {
-  const shuffled = possibleChars.sort(() => 0.5 - Math.random());
-  console.log(possibleChars.length);
-  // let selected = shuffled.slice(0, n);
-  let passwordOne = shuffled.slice(0, 9).join("");
+const grabValueFromInput = () => {
+  console.log(passwordLength);
+};
+
+const generatePassword = () => {
+  const shuffled = () => possibleChars.sort(() => 0.5 - Math.random());
+  passwordLength = input.value;
+
+  let passwordOne = shuffled().slice(0, passwordLength).join("");
+  let passwordTwo = shuffled().slice(0, passwordLength).join("");
+  let passwordThree = shuffled().slice(0, passwordLength).join("");
+  let passwordFour = shuffled().slice(0, passwordLength).join("");
   squareOne.textContent = passwordOne;
-  let passwordTwo = shuffled.slice(10, 19).join("");
   squareTwo.textContent = passwordTwo;
-  let passwordThree = shuffled.slice(20, 29).join("");
   squareThree.textContent = passwordThree;
-  let passwordFour = shuffled.slice(30, 39).join("");
   squareFour.textContent = passwordFour;
-  console.log(passwordOne, passwordTwo, passwordThree, passwordFour);
+};
+
+btn.addEventListener("click", () => {
+  generatePassword();
 });
+
+// Math.floor(Math.random() *)

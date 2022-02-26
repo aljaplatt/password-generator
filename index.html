@@ -25,10 +25,23 @@
         <h1 class="top-h1">Generate a</h1>
         <h1 class="bottom-h1">random password</h1>
         <h3>Never use an insecure password again</h3>
-        <button class="btn">
-          <i class="fa-solid fa-bolt"></i>
-          Generate passwords
-        </button>
+        <label class="label" for="quantity"
+          >Select a number (between 5 and 10):</label
+        >
+        <div>
+          <input
+            class="input"
+            type="number"
+            id="quantity"
+            name="quantity"
+            min="5"
+            max="10"
+          />
+          <button class="btn">
+            <i class="fa-solid fa-bolt"></i>
+            Generate passwords
+          </button>
+        </div>
       </div>
       <div class="grid">
         <p class="grid-btn password-one"></p>
